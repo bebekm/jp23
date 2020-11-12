@@ -1,5 +1,3 @@
-# c:\xampp\mysql\bin\mysql -uedunova -pedunova < c:\Users\Korisnik\Desktop\Java\Scripts\sample.sql
-
 drop database if exists sampledatabase;
 create database sampledatabase;
 
