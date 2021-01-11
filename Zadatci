@@ -1,0 +1,75 @@
+package edunova;
+
+import javax.swing.JOptionPane;
+
+public class Zadatci {
+	public static void main(String[] args) {
+		
+		//Zadatak 1; Kreirati program koji unosi 24 broja, ispisuje njihov zbroj, najmanji i  najveći uneseni broj.
+		/*
+		int flag = 0;
+		int add=0, min=0, max=0;
+		
+		for (int i = 0; i < 24; i++) {
+			int number = Integer.parseInt(JOptionPane.showInputDialog("Enter a number"));
+			
+			if (flag == 0){
+				add = number;
+				min = number;
+				max = number;
+			}else {
+				add = add + number;
+				
+				if(number>max) {
+					max = number;
+				}
+				
+				if(number<min) {
+					min = number;
+				}
+			}
+			
+			flag = 1;
+		}
+		
+
+		System.out.println("Add = "+add+"\nMin = "+min+"\nMax = "+max);
+		*/
+		
+		//Zadatak 2; Kreirati program koji ispisuje tablicu množenja 15x15 lijepo formatiranu
+		/*
+		//Nije formatirana
+		for (int i = 1; i<=15; i++) {
+			for (int j = 1; j<=15; j++) {
+				int x = i * j;
+				System.out.print(x+" ");
+			}
+			System.out.println();
+		}
+		*/
+		
+		//Zadatak 3; Kreirati program koji za dva unesena broja ispisuje sve prim/prosti/prime brojeve između njih.
+		/*
+		int low = Integer.parseInt(JOptionPane.showInputDialog("Input lower bracket"));
+		int high = Integer.parseInt(JOptionPane.showInputDialog("Input higher bracket"));
+		
+		for(int i = high-1; i > low; i--) {
+			int flag = 0;
+			
+			for(int j = low + 1; j < i; j++) {
+				if (i % j == 0 || i % 2 == 0) {
+					flag = 1;
+				}
+				
+			}
+			
+			if(flag == 0) {
+				System.out.println(i);
+			}
+		}
+		*/
+	
+		
+		
+	}
+}
